@@ -38,7 +38,6 @@ export function InfoCard({ report }) {
     };
     getData();
   }, []);
-  console.log(data);
   return (
     <>
       <div className="container stack h g-5">
